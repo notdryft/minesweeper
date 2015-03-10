@@ -1,0 +1,9 @@
+# mac stuff
+.DS_Store
+
+# ides
+.idea
+*.iml
+
+# build
+target
