@@ -52,6 +52,8 @@ public class Receiver {
         StringBuilder sb = new StringBuilder();
         sb.append("Welcome to Minesweeper.").append(StringsAndCharacters.LINE_SEPARATOR);
         sb.append("You can quit at anytime by typing \"exit\" or \"quit\"!").append(StringsAndCharacters.LINE_SEPARATOR);
+        sb.append("Please start by specifying the grid you want to play with such as \"width height mines\".").append(StringsAndCharacters.LINE_SEPARATOR);
+        sb.append("By then, you'll only need to input \"x y\", x and y being the coordinate you want to try.").append(StringsAndCharacters.LINE_SEPARATOR);
 
         return sb.toString();
     }
