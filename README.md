@@ -7,7 +7,7 @@ A simple minesweeper.
 
 To play, you can do the following:
 ```bash
-$ mvn exec:java
+$ mvn --quiet clean package exec:java
 ```
 
 Then, follow the instructions!
